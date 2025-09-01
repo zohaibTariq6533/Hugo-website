@@ -2,7 +2,7 @@ backend:
   name: github
   repo: zohaibTariq6533/Hugo-website
   branch: main  
-  auth_type: implicit
+  auth_type: pkce
   client_id: Ov23liCCPh5APDx73cOR # adjust if your repo uses "master"
 
 media_folder: "static/uploads"   # actual folder in repo
