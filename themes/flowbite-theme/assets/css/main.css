@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+
+@layer base {
+  :root {
+    --default-font-family: 'Roboto', sans-serif;
+  }
+}
+

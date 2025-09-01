@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: main   # adjust if your repo uses "master"
+
+media_folder: "static/uploads"   # actual folder in repo
+public_folder: "/uploads"        # how Hugo serves them
+
+collections:
+  # Blog posts
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
+
+  # Homepage content (index.md)
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage Content"
+        name: "index"
+        file: "content/_index.md"   # Hugo homepage is usually `_index.md`, adjust if yours is just index.md
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "date", label: "Date", widget: "datetime" }
+          - { name: "draft", label: "Draft", widget: "boolean", default: false }
+          - { name: "hero_section", label: "Hero Section", widget: "string" }
+          - { name: "hero_section2", label: "Hero Section 2", widget: "string" }
+          - { name: "sub_heading", label: "Sub Heading", widget: "text" }
+          - { name: "pricing", label: "Pricing", widget: "string" }
