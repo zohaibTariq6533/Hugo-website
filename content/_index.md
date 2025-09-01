@@ -1,10 +1,10 @@
 ---
-title: Henn
-date: 2025-09-01T21:44:00
+title: mn
+date: 2025-09-01T21:47:00
 draft: false
-hero_section: Geoo
-hero_section2: nbbdhdh
-sub_heading: mansmdns
-pricing: 23232 hjajshdja9 3i9393
+hero_section: Hiiii
+hero_section2: jhjgh jhjj
+sub_heading: jhjj ihhhiihhi jhhjhjhj
+pricing: hjjhjh ihhhhjhj  hjhjhjhjhjh khhj
 ---
 
