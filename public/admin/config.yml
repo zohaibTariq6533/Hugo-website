@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: zohaibTariq6533/Hugo-website
   branch: main   # adjust if your repo uses "master"
 
 media_folder: "static/uploads"   # actual folder in repo
