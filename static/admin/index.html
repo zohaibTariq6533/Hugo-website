@@ -4,8 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager</title>
+    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   </head>
   <body>
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <div id="cms"></div>
+
+    <script>
+      // Initialize Sveltia CMS
+      const sveltiaCMS = initCMS({
+        backend: {
+          name: 'git-gateway', // use 'github' if you prefer GitHub token
+        }
+      });
+    </script>
   </body>
 </html>
