@@ -6,30 +6,22 @@
   <meta name="robots" content="noindex" />
   <title>Content Manager</title>
 
-  <!-- Netlify Identity Widget -->
-  
-
   <!-- Sveltia CMS -->
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
-  
 </head>
 <body>
-  <!-- <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script> -->
-<div id="cms"></div>
-   <script>
-    // Initialize Netlify Identity first
-    // if (window.netlifyIdentity) {
-    //   window.netlifyIdentity.init();
-    // }
+  <div id="cms"></div>
 
-    // Initialize Sveltia CMS
+  <script>
     const sveltiaCMS = initCMS({
       backend: {
-        name: 'git-gateway',
-        branch: 'main'
+        name: 'github',
+        repo: 'zohaibTariq6533/Hugo-website',
+        branch: 'main',
+        auth_type: 'pkce',
+        app_id: 'Ov23liCCPh5APDx73cOR'
       }
     });
-  </script> 
-  
+  </script>
 </body>
 </html>
