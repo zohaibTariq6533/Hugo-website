@@ -3,7 +3,7 @@ backend:
   repo: zohaibTariq6533/Hugo-website
   branch: main  
   auth_type: pkce
-  client_id: Ov23liCCPh5APDx73cOR # adjust if your repo uses "master"
+  app_id: Ov23liCCPh5APDx73cOR # adjust if your repo uses "master"
 
 media_folder: "static/uploads"   # actual folder in repo
 public_folder: "/uploads"        # how Hugo serves them
