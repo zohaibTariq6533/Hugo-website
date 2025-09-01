@@ -1,7 +1,9 @@
 backend:
   name: github
   repo: zohaibTariq6533/Hugo-website
-  branch: main   # adjust if your repo uses "master"
+  branch: main  
+  auth_type: implicit
+  client_id: Ov23liCCPh5APDx73cOR # adjust if your repo uses "master"
 
 media_folder: "static/uploads"   # actual folder in repo
 public_folder: "/uploads"        # how Hugo serves them
