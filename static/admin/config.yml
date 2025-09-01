@@ -7,7 +7,7 @@ backend:
 
 media_folder: "static/uploads"   # actual folder in repo
 public_folder: "/uploads"        # how Hugo serves them
-
+load_config_file: true
 collections:
   # Blog posts
   - name: "blog"
