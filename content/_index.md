@@ -1,10 +1,10 @@
 ---
-title: "Home"
+title: Home
 date: 2023-01-01T08:00:00-07:00
 draft: false
-hero_section: Hiiii
-hero_section2: jhjgh jhjj
-sub_heading: jhjj ihhhiihhi jhhjhjhj
-pricing: hjjhjh ihhhhjhj  hjhjhjhjhjh khhj
+hero_section: Gewoon goed
+hero_section2: timmerwerk
+sub_heading: Al jaren doe ik timmerklussen in Noord-Nederland. Van een kozijn vervangen tot een dakkapel erbij - werk dat lang meegaat, voor een eerlijke prijsa.
+pricing: Kozijn vanaf €800 • Gevelbekleding vanaf €45/m² • Dakkapel vanaf €8.500
 ---
 
