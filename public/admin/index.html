@@ -33,10 +33,11 @@
     });
   }
 
-  // Listen for CMS save event
-  sveltiaCMS.on('entrySaved', () => {
-    triggerNetlifyBuild();
-  });
+  events: {
+    entrySaved: () => {
+      triggerNetlifyBuild();
+    }
+  }
   </script>
 </body>
 </html>
