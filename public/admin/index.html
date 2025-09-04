@@ -23,21 +23,7 @@
       },
       load_config_file: true 
     });
-    function triggerNetlifyBuild() {
-    fetch('curl -X POST -d {} https://api.netlify.com/build_hooks/68b5d184bfcd8b00874551bf', {
-      method: 'POST'
-    }).then(() => {
-      console.log('Netlify rebuild triggered!');
-    }).catch(err => {
-      console.error('Error triggering Netlify rebuild:', err);
-    });
-  }
-
-  events: {
-    entrySaved: () => {
-      triggerNetlifyBuild();
-    }
-  }
+    
   </script>
 </body>
 </html>
